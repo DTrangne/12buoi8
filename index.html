@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        font-family: time new roman ;
+        margin: 0%;
+        
+        font-size: 16px;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        grid-template-columns: repeat(4,1fr);
+       
+    }
+    .card{
+        grid-area: card;
+        border: 1px solid black;
+        margin: 5px;
+        
+        width: 23%;
+        height: auto;
+    }
+    .img{
+        width: 100%;
+    }
+    .content{
+        margin: 10px;
+    }
+    .second{
+        border-top: 1px solid;
+        display: flex;
+        justify-content: space-between;
+      
+    }
+    .button{
+        background-color: #27391C;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+       margin: 5px;
+        padding: 10px 30px;
+        font-size: 14px;
+        color:aliceblue
+    }
+    .watch{
+        margin: 10px;
+        font-size: 14px;
+    }
+    
+    @media( max-width:768px){
+        body{
+            font-size: 14px;
+            
+        }
+        .card{
+            width: 100%;
+            height: auto;
+        }
+    }
+    @media( max-width:992px){
+        body{
+            font-size: 16px;
+            
+        }
+        .card{
+            width: 48%;
+            height: auto;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="tulipden.jpg" class="img">
+            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ullam consectetur pariatur. Labore totam, quia sed repudiandae voluptatem voluptatibus tenetur quibusdam consequatur saepe corporis distinctio adipisci, ea, illum culpa facilis.
+            s est.</div>
+            <div class="second">
+                <div class="button">Live</div>
+                <div class="watch">4.2 Watching</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="tulipdo.jpg" class="img">
+            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ullam consectetur pariatur. Labore totam, quia sed repudiandae voluptatem voluptatibus tenetur quibusdam consequatur saepe corporis distinctio adipisci, ea, illum culpa facilis.
+            s est.</div>
+            <div class="second">
+                <div class="button">Live</div>
+                <div class="watch">4.2 Watching</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="tuliphong.jpg" class="img">
+            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ullam consectetur pariatur. Labore totam, quia sed repudiandae voluptatem voluptatibus tenetur quibusdam consequatur saepe corporis distinctio adipisci, ea, illum culpa facilis.
+            s est.</div>
+            <div class="second">
+                <div class="button">Live</div>
+                <div class="watch">4.2 Watching</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="tulipxanh.jpg" class="img">
+            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ullam consectetur pariatur. Labore totam, quia sed repudiandae voluptatem voluptatibus tenetur quibusdam consequatur saepe corporis distinctio adipisci, ea, illum culpa facilis.
+            s est.</div>
+            <div class="second">
+                <div class="button">Live</div>
+                <div class="watch">4.2 Watching</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
